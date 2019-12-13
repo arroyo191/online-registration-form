@@ -1,0 +1,179 @@
+
+p,
+label[for=other] {
+    font-size: 1.5em;
+}
+
+header {
+    text-align: center;
+    background-color: #0000cc;
+    padding: 10px 0 10px 0;
+    color: white;
+}
+
+fieldset {
+    border: none;
+}
+
+
+legend {
+    font-weight: bolder;
+    font-size: 2.3em;
+    padding: 30px 0 0 0;
+  
+}
+
+
+.intro {
+    align-items: center;
+    border-bottom: 20px double black;
+
+}
+
+.intro p {
+   padding-left: 30px;
+}
+
+.intro,
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.item-1,
+.zcode {
+    font-size: 1.5rem;
+    padding: .5em 0;
+
+}
+
+.item-2,
+#state,
+#zip {
+    height: 3em;
+    background-color: #b3b3cc;
+    border-radius: 5px;
+    border-style: none;
+    
+}
+
+#zip {
+    width: 30%;
+}
+
+
+input::placeholder {
+    padding-left: 5px;
+}
+
+.container-2,
+.row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.row {
+    flex-direction: row;
+    padding: 5px;
+
+}
+
+label[for=html-news],
+label[for=css],
+label[for=java],
+label[for=html],
+label[for=plain] {
+    padding-left: .5em;
+    font-size: 1.5em;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    order: -1;
+}
+
+#other {
+    height: 120px;
+    background-color: #b3b3cc;
+    border-radius: 8px;
+    margin: 30px 0 20px 0;
+    
+    
+  
+}
+
+button {
+    width: 99%;
+    height: 60px;
+    background: #27f275;
+    color: lightyellow;
+    font-size: 2.5em;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+.container-2 {
+    padding: 20px 0 0 0;
+}
+
+footer {
+    text-align: center;
+    color: grey;
+}
+
+body {
+    font-family: 'Courgette', cursive;
+}
+
+.border {
+    padding: 0 0 10px 0;
+    border-bottom: 8px solid black;
+}
+
+input:focus,
+#zip:focus {
+    background: rgb(211, 205, 205);
+} 
+
+
+
+@media (min-width: 769px) {
+
+
+ 
+h2 {
+    margin: 3% 0 0 0;
+}
+
+.intro p {
+    margin: 0 0 3% 0;
+}  
+
+.info-row {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.item-1
+ {
+    width: 30%;
+}
+
+.item-2,
+#state {
+    width: 100%;
+
+}
+
+.zcode {
+    width: 23%;
+}
+
+}
+
+
